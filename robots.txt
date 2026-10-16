@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ocren.info/sitemap.xml
