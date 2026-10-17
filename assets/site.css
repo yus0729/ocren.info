@@ -412,6 +412,8 @@ p { margin: 0 0 1rem; }
 .doc tr:last-child th, .doc tr:last-child td { border-bottom: 1px solid var(--rule); }
 .doc th { width: 34%; color: var(--ink-2); font-weight: 600; }
 .doc td a, .mail { overflow-wrap: anywhere; }
+/* an address inside a sentence: keep it on one line (ocren-support@… otherwise breaks after the hyphen) */
+.doc p a[href^="mailto:"] { white-space: nowrap; }
 @media (max-width: 599px) {
   .doc table, .doc tbody, .doc tr, .doc th, .doc td { display: block; width: auto; }
   .doc th { padding: .8rem 0 .1rem; }
