@@ -1,0 +1,27 @@
+# Ocren
+
+> Ocren (オークレン) is a reading-notes app for iPhone and iPad by YenSense, Inc. Photograph a book page, select the lines you want to keep, and Ocren turns them into text with on-device text recognition and saves them as memos with the book and the page number, so you always know which book a line came from.
+
+- Reads Japanese text written vertically or horizontally, and English text written horizontally; picks up the page number from the photo
+- Text recognition runs entirely on the device: photos and recognized text are not uploaded, and photos are not saved. Saved memos are stored in the user's account (Sign in with Apple or Google) and sync across devices
+- Search all memos by their words, a note, or a book title; notes and seven colored flags; a memo across pages, or several memos from one photo; e-book screenshots from Photos
+- Wooden bookshelf with Reading, Read and Want to read; Quote of the day with a daily reminder; Ranking compiled from readers' shelves (only counts are shown); quote cards for sharing
+- Free with ads; optional Remove Ads subscription (monthly or yearly). iPhone with iOS 17 or later, iPad with iPadOS 17 or later. App in English and Japanese. App Store category: Productivity
+- Contact: ocren-support@yensense.com
+
+## Pages
+
+- [Ocren (English)](https://ocren.info/): what the app does, FAQ, pricing
+- [Guide (English)](https://ocren.info/guide/): every screen step by step, troubleshooting and FAQ
+- [Ocren（日本語）](https://ocren.info/ja/): アプリの紹介・よくある質問・料金
+- [使い方（日本語）](https://ocren.info/ja/guide/): 画面ごとの使い方・困ったとき・よくある質問
+
+## App Store
+
+- [Ocren on the App Store](https://apps.apple.com/app/id6767999443)
+
+## Policies
+
+- [Privacy Policy](https://ocren.info/privacy/) / [プライバシーポリシー](https://ocren.info/ja/privacy/)
+- [Terms of Use](https://ocren.info/terms/) / [利用規約](https://ocren.info/ja/terms/)
+- [Legal notice](https://ocren.info/legal/) / [特定商取引法に基づく表記](https://ocren.info/ja/legal/)

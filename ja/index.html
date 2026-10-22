@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ocren — 心に残った一節を、撮るだけで残す読書メモ</title>
-<meta name="description" content="本のページを撮って、残したいところを囲むだけ。日本語（縦書き・横書き）と英語（横書き）を文字にして、木の本棚にメモとして残す読書メモアプリ。文字の読み取りは iPhone の中で完結します。">
+<meta name="description" content="Ocren（オークレン）は iPhone・iPad の読書メモアプリ。本のページを撮って残したい行を囲むだけで、一節を本とページ番号といっしょに文字で残せるので、どの本の言葉かすぐに分かります。日本語（縦書き・横書き）と英語に対応し、文字の読み取りは端末の中で完結します。">
 <link rel="canonical" href="https://ocren.info/ja/">
 <link rel="alternate" hreflang="en" href="https://ocren.info/">
 <link rel="alternate" hreflang="ja" href="https://ocren.info/ja/">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ocren">
 <meta property="og:title" content="Ocren — 心に残った一節を、撮るだけで残す読書メモ">
-<meta property="og:description" content="本のページを撮って、残したいところを囲むだけ。日本語（縦書き・横書き）と英語（横書き）を文字にして、木の本棚にメモとして残す読書メモアプリ。文字の読み取りは iPhone の中で完結します。">
+<meta property="og:description" content="Ocren（オークレン）は iPhone・iPad の読書メモアプリ。本のページを撮って残したい行を囲むだけで、一節を本とページ番号といっしょに文字で残せるので、どの本の言葉かすぐに分かります。日本語（縦書き・横書き）と英語に対応し、文字の読み取りは端末の中で完結します。">
 <meta property="og:url" content="https://ocren.info/ja/">
 <meta property="og:image" content="https://ocren.info/assets/og-ja.jpg">
 <meta property="og:image:width" content="1200">
@@ -27,6 +27,154 @@
 <link rel="icon" href="../assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="stylesheet" href="../assets/site.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://ocren.info/#org",
+   "name": "YenSense, Inc.",
+   "alternateName": "YenSense株式会社",
+   "url": "https://ocren.info/",
+   "email": "ocren-support@yensense.com",
+   "logo": "https://ocren.info/assets/icon-192.png"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://ocren.info/ja/#website",
+   "name": "Ocren",
+   "url": "https://ocren.info/ja/",
+   "inLanguage": "ja",
+   "publisher": {
+    "@id": "https://ocren.info/#org"
+   }
+  },
+  {
+   "@type": "MobileApplication",
+   "@id": "https://ocren.info/#app",
+   "name": "Ocren",
+   "alternateName": "オークレン",
+   "description": "Ocren（オークレン）は iPhone・iPad の読書メモアプリ。本のページを撮って残したい行を囲むだけで、一節を本とページ番号といっしょに文字で残せるので、どの本の言葉かすぐに分かります。日本語（縦書き・横書き）と英語に対応し、文字の読み取りは端末の中で完結します。",
+   "url": "https://ocren.info/ja/",
+   "applicationCategory": "ProductivityApplication",
+   "applicationSubCategory": "読書メモ",
+   "operatingSystem": "iOS 17.0 or later, iPadOS 17.0 or later",
+   "inLanguage": [
+    "en",
+    "ja"
+   ],
+   "installUrl": "https://apps.apple.com/app/id6767999443",
+   "downloadUrl": "https://apps.apple.com/app/id6767999443",
+   "sameAs": [
+    "https://apps.apple.com/app/id6767999443"
+   ],
+   "image": "https://ocren.info/assets/icon-192.png",
+   "screenshot": [
+    "https://ocren.info/img/ja/library.jpg",
+    "https://ocren.info/img/ja/capture.jpg",
+    "https://ocren.info/img/ja/memos.jpg",
+    "https://ocren.info/img/ja/today.jpg"
+   ],
+   "featureList": [
+    "本のページを撮って、残したい行を囲む",
+    "端末の中での文字の読み取り（OCR）。日本語の縦書き・横書きと英語に対応",
+    "メモを本とページ番号といっしょに保存",
+    "本文・ノート・書名で全部のメモを検索",
+    "ノートと 7 色のフラグ",
+    "ページをまたぐメモ、1 枚の写真から複数のメモ",
+    "今日の一文と毎日のリマインド",
+    "読書中・読了・読みたいが分かる木の本棚",
+    "Apple・Google のサインインで端末をまたいで同期",
+    "オフラインでも使える"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY",
+    "description": "無料（広告あり）。広告を消すサブスクリプション（月額・年額）あり。"
+   },
+   "publisher": {
+    "@id": "https://ocren.info/#org"
+   },
+   "author": {
+    "@id": "https://ocren.info/#org"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://ocren.info/ja/#faq",
+   "inLanguage": "ja",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Ocren（オークレン）とは？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "iPhone・iPad の読書メモアプリです。本のページを撮って残したい行を囲むと、文字にして、本とページ番号といっしょにメモとして保存します。文字の読み取りは端末の中だけで行います。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "本に線を引いても、あとでどの本だったか分からなくなります。",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ocren では、メモはすべて本とページ番号といっしょに保存されるので、どの本の言葉かがすぐに分かります。「メモ」タブには全部の本のメモが集まり、本文・ノート・書名から探せます。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "縦書きの日本語も読めますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "はい。日本語の縦書き・横書きと、英語の横書きに対応しています。ページ番号も写真から読み取ります。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "写真や読み取った文字は送信されますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "いいえ。文字の読み取りは iPhone・iPad の中だけで行い、写真は保存しません。保存したメモは、機種変更しても引き継げるようアカウントに保存されます。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "電子書籍でも使えますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "はい。電子書籍のページのスクリーンショットを撮り、カメラの画面の「写真」から選んでください。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "無料ですか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "はい。すべての機能を無料で使えます（広告あり）。広告を消すサブスクリプション「広告を削除」（月額 ¥100・年額 ¥1,000）もあります。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "アカウントは必要ですか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "はい。Apple か Google でサインインします。本とメモはアカウントに保存され、機種変更しても新しい iPhone や iPad で開けます。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "対応している端末と言語は？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "iOS 17 以上の iPhone と、iPadOS 17 以上の iPad です。アプリの表示は日本語と英語です。"
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
 </head>
 <body>
 <a class="skip" href="#main">本文へ移動</a>
@@ -53,6 +201,12 @@
     </div>
     <div class="visual"><div class="phone"><img src="../img/ja/library.jpg" width="600" height="1303" alt="本棚の画面。木の棚に本の表紙が並び、表紙に読書中・読了・読みたいの印が付いている" decoding="async"></div></div>
   </div>
+</section>
+
+<section class="section" aria-labelledby="why">
+  <p class="heading-label">こんな人に</p>
+  <h2 id="why">どの本の言葉か、もう迷わない。</h2>
+  <p class="intro">本に線を引いたり、付箋を貼ったり、ページの角を折ったり。あとでその一文を思い出しても、どの本だったかが分からない。Ocren は一節を、本とページ番号といっしょに文字で残すので、検索して読み返せて、どの本の言葉かもすぐに分かります。</p>
 </section>
 
 <section class="section" aria-labelledby="how">
@@ -187,6 +341,30 @@
     <div class="card plan best"><p class="name">広告を削除（年額）</p><p class="price">¥1,000 <small>/ 年</small></p><p class="sub">月額より 2 か月分お得</p></div>
   </div>
   <p class="note">「広告を削除」を購入すると、バナーと全画面の広告がすべて消えます。価格は日本の App Store での税込価格です。購読は、現在の期間が終わる 24 時間以上前に解約しない限り自動で更新されます。解約は App Store の設定からいつでもできます。</p>
+</section>
+
+<section class="section" aria-labelledby="faq">
+  <p class="heading-label">よくある質問</p>
+  <h2 id="faq">よくある質問</h2>
+  <div class="faq">
+  <details><summary>Ocren（オークレン）とは？</summary>
+    <p>iPhone・iPad の読書メモアプリです。本のページを撮って残したい行を囲むと、文字にして、本とページ番号といっしょにメモとして保存します。文字の読み取りは端末の中だけで行います。</p></details>
+  <details><summary>本に線を引いても、あとでどの本だったか分からなくなります。</summary>
+    <p>Ocren では、メモはすべて本とページ番号といっしょに保存されるので、どの本の言葉かがすぐに分かります。「メモ」タブには全部の本のメモが集まり、本文・ノート・書名から探せます。</p></details>
+  <details><summary>縦書きの日本語も読めますか？</summary>
+    <p>はい。日本語の縦書き・横書きと、英語の横書きに対応しています。ページ番号も写真から読み取ります。</p></details>
+  <details><summary>写真や読み取った文字は送信されますか？</summary>
+    <p>いいえ。文字の読み取りは iPhone・iPad の中だけで行い、写真は保存しません。保存したメモは、機種変更しても引き継げるようアカウントに保存されます。</p></details>
+  <details><summary>電子書籍でも使えますか？</summary>
+    <p>はい。電子書籍のページのスクリーンショットを撮り、カメラの画面の「写真」から選んでください。</p></details>
+  <details><summary>無料ですか？</summary>
+    <p>はい。すべての機能を無料で使えます（広告あり）。広告を消すサブスクリプション「広告を削除」（月額 ¥100・年額 ¥1,000）もあります。</p></details>
+  <details><summary>アカウントは必要ですか？</summary>
+    <p>はい。Apple か Google でサインインします。本とメモはアカウントに保存され、機種変更しても新しい iPhone や iPad で開けます。</p></details>
+  <details><summary>対応している端末と言語は？</summary>
+    <p>iOS 17 以上の iPhone と、iPadOS 17 以上の iPad です。アプリの表示は日本語と英語です。</p></details>
+  </div>
+  <p><a href="guide/#faq">ほかの質問は使い方のページへ</a></p>
 </section>
 
 <section class="section" aria-labelledby="guide-cta">

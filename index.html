@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ocren — Keep the passages that stayed with you</title>
-<meta name="description" content="Photograph a page and select the lines you want to keep. Ocren turns Japanese text (vertical or horizontal) and English text (horizontal) into memos on your own wooden bookshelf. Text recognition runs entirely on your iPhone.">
+<meta name="description" content="Ocren is a reading-notes app for iPhone and iPad. Photograph a page, select the lines you love, and keep them as text with the book and page number, so you always know which book a line came from. On-device text recognition for Japanese (vertical or horizontal) and English.">
 <link rel="canonical" href="https://ocren.info/">
 <link rel="alternate" hreflang="en" href="https://ocren.info/">
 <link rel="alternate" hreflang="ja" href="https://ocren.info/ja/">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ocren">
 <meta property="og:title" content="Ocren — Keep the passages that stayed with you">
-<meta property="og:description" content="Photograph a page and select the lines you want to keep. Ocren turns Japanese text (vertical or horizontal) and English text (horizontal) into memos on your own wooden bookshelf. Text recognition runs entirely on your iPhone.">
+<meta property="og:description" content="Ocren is a reading-notes app for iPhone and iPad. Photograph a page, select the lines you love, and keep them as text with the book and page number, so you always know which book a line came from. On-device text recognition for Japanese (vertical or horizontal) and English.">
 <meta property="og:url" content="https://ocren.info/">
 <meta property="og:image" content="https://ocren.info/assets/og-en.jpg">
 <meta property="og:image:width" content="1200">
@@ -27,6 +27,154 @@
 <link rel="icon" href="assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://ocren.info/#org",
+   "name": "YenSense, Inc.",
+   "alternateName": "YenSense株式会社",
+   "url": "https://ocren.info/",
+   "email": "ocren-support@yensense.com",
+   "logo": "https://ocren.info/assets/icon-192.png"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://ocren.info/#website",
+   "name": "Ocren",
+   "url": "https://ocren.info/",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://ocren.info/#org"
+   }
+  },
+  {
+   "@type": "MobileApplication",
+   "@id": "https://ocren.info/#app",
+   "name": "Ocren",
+   "alternateName": "オークレン",
+   "description": "Ocren is a reading-notes app for iPhone and iPad. Photograph a page, select the lines you love, and keep them as text with the book and page number, so you always know which book a line came from. On-device text recognition for Japanese (vertical or horizontal) and English.",
+   "url": "https://ocren.info/",
+   "applicationCategory": "ProductivityApplication",
+   "applicationSubCategory": "Reading notes",
+   "operatingSystem": "iOS 17.0 or later, iPadOS 17.0 or later",
+   "inLanguage": [
+    "en",
+    "ja"
+   ],
+   "installUrl": "https://apps.apple.com/app/id6767999443",
+   "downloadUrl": "https://apps.apple.com/app/id6767999443",
+   "sameAs": [
+    "https://apps.apple.com/app/id6767999443"
+   ],
+   "image": "https://ocren.info/assets/icon-192.png",
+   "screenshot": [
+    "https://ocren.info/img/en/library.jpg",
+    "https://ocren.info/img/en/capture.jpg",
+    "https://ocren.info/img/en/memos.jpg",
+    "https://ocren.info/img/en/today.jpg"
+   ],
+   "featureList": [
+    "Photograph a book page and select the lines to keep",
+    "On-device text recognition (OCR) for Japanese (vertical or horizontal) and English",
+    "Memos saved with the book and the page number",
+    "Search all memos by their words, a note, or a book title",
+    "Notes and seven colored flags",
+    "A memo across pages, or several memos from one photo",
+    "Quote of the day and a daily reminder",
+    "Wooden bookshelf with Reading, Read and Want to read",
+    "Sync across devices with Sign in with Apple or Google",
+    "Works offline"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Free with ads. Optional Remove Ads subscription (monthly or yearly)."
+   },
+   "publisher": {
+    "@id": "https://ocren.info/#org"
+   },
+   "author": {
+    "@id": "https://ocren.info/#org"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://ocren.info/#faq",
+   "inLanguage": "en",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is Ocren?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ocren is a reading-notes app for iPhone and iPad. Photograph a book page, select the lines you want to keep, and Ocren turns them into text and saves them as a memo with the book and the page number. Text recognition runs entirely on your device."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "I underline passages, but later I can’t remember which book they were in. Can Ocren help?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Every memo is saved with its book and page number, so you can always see where a line came from. The Memos tab gathers the memos from all your books: search them by their words, a note, or a book title."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can Ocren read vertical Japanese text?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Ocren reads Japanese text written vertically or horizontally, and English text written horizontally. It also picks up the page number from the photo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are my photos or the recognized text uploaded?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Text recognition runs entirely on your iPhone or iPad, and photos are not saved. The memos you choose to save are stored in your account so that they carry over to a new device."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I use it with e-books?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Take a screenshot of the e-book page and choose it with Photos on the camera screen."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Ocren free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Every feature is free, with ads. Remove Ads is an optional subscription, monthly or yearly; the App Store shows the price in your country."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need an account?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Sign in with Apple or Google. Your books and memos are saved to your account and open on a new iPhone or iPad."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which devices and languages are supported?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "iPhone with iOS 17 or later and iPad with iPadOS 17 or later. The app is in English and Japanese."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -53,6 +201,12 @@
     </div>
     <div class="visual"><div class="phone"><img src="img/en/library.jpg" width="600" height="1303" alt="The Library tab: book covers standing on a wooden shelf, each with a mark for Reading, Read, or Want to read" decoding="async"></div></div>
   </div>
+</section>
+
+<section class="section" aria-labelledby="why">
+  <p class="heading-label">Why Ocren</p>
+  <h2 id="why">Never wonder which book a line came from.</h2>
+  <p class="intro">You underline a sentence, stick a note on the page, or fold a corner. Months later you remember the words, but not the book. Ocren keeps each line as text together with its book and page number, so you can search it, read it again, and always see where it came from.</p>
 </section>
 
 <section class="section" aria-labelledby="how">
@@ -187,6 +341,30 @@
     <div class="card plan best"><p class="name">Remove Ads (Yearly)</p><p class="price">¥1,000 <small>/ year</small></p><p class="sub">Costs less than paying monthly</p></div>
   </div>
   <p class="note">Remove Ads turns off every banner and full-screen ad. Prices shown are for Japan; the App Store shows your local price. Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period, and you can cancel anytime in your App Store settings.</p>
+</section>
+
+<section class="section" aria-labelledby="faq">
+  <p class="heading-label">FAQ</p>
+  <h2 id="faq">Questions</h2>
+  <div class="faq">
+  <details><summary>What is Ocren?</summary>
+    <p>Ocren is a reading-notes app for iPhone and iPad. Photograph a book page, select the lines you want to keep, and Ocren turns them into text and saves them as a memo with the book and the page number. Text recognition runs entirely on your device.</p></details>
+  <details><summary>I underline passages, but later I can’t remember which book they were in. Can Ocren help?</summary>
+    <p>Yes. Every memo is saved with its book and page number, so you can always see where a line came from. The Memos tab gathers the memos from all your books: search them by their words, a note, or a book title.</p></details>
+  <details><summary>Can Ocren read vertical Japanese text?</summary>
+    <p>Yes. Ocren reads Japanese text written vertically or horizontally, and English text written horizontally. It also picks up the page number from the photo.</p></details>
+  <details><summary>Are my photos or the recognized text uploaded?</summary>
+    <p>No. Text recognition runs entirely on your iPhone or iPad, and photos are not saved. The memos you choose to save are stored in your account so that they carry over to a new device.</p></details>
+  <details><summary>Can I use it with e-books?</summary>
+    <p>Yes. Take a screenshot of the e-book page and choose it with Photos on the camera screen.</p></details>
+  <details><summary>Is Ocren free?</summary>
+    <p>Yes. Every feature is free, with ads. Remove Ads is an optional subscription, monthly or yearly; the App Store shows the price in your country.</p></details>
+  <details><summary>Do I need an account?</summary>
+    <p>Yes. Sign in with Apple or Google. Your books and memos are saved to your account and open on a new iPhone or iPad.</p></details>
+  <details><summary>Which devices and languages are supported?</summary>
+    <p>iPhone with iOS 17 or later and iPad with iPadOS 17 or later. The app is in English and Japanese.</p></details>
+  </div>
+  <p><a href="guide/#faq">More questions in the guide</a></p>
 </section>
 
 <section class="section" aria-labelledby="guide-cta">
