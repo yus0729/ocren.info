@@ -5,7 +5,8 @@
 - Reads Japanese text written vertically or horizontally, and English text written horizontally; picks up the page number from the photo
 - Text recognition runs entirely on the device: photos and recognized text are not uploaded, and photos are not saved. Saved memos are stored in the user's account (Sign in with Apple or Google) and sync across devices
 - Search all memos by their words, a note, or a book title; notes and seven colored flags; a memo across pages, or several memos from one photo; e-book screenshots from Photos
-- Wooden bookshelf with Reading, Read and Want to read; Quote of the day with a daily reminder; Ranking compiled from readers' shelves (only counts are shown); quote cards for sharing
+- Wooden bookshelf with Reading, Read and Want to read; Quote of the day with a daily reminder; Ranking compiled from readers' shelves (only counts are shown)
+- Quote cards: put a passage with its book's title and author on paper, wood, or your own photo or video, and share it as an image or as a video for Reels and Stories (the first 15 seconds of a video, or a photo with a slow 10-second zoom). The photos and videos you choose stay on the device
 - Free with ads; optional Remove Ads subscription (monthly or yearly). iPhone with iOS 17 or later, iPad with iPadOS 17 or later. App in English and Japanese. App Store category: Productivity
 - Contact: ocren-support@yensense.com
 
